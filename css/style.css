@@ -43,3 +43,8 @@ footer span { float: right; font-style: italic; }
   body { font-size: 12px;}
   header p { padding-left: 4.5em;}
 }
+@font-face {
+  font-family: 'Open Sans';
+  src: url(//fonts.googleapis.com/css?family=Open+Sans:400,700) format("woff2");       
+  font-display: swap;
+}
