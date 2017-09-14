@@ -37,7 +37,7 @@
   AddOutputFilterByType DEFLATE application/x-font-opentype 
   AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
   AddOutputFilterByType DEFLATE font/ttf 
-  AddOutputFilterByType DEFLATE font/otf 
+  AddOutputFilterByType DEFLATE font/woff 
   AddOutputFilterByType DEFLATE font/opentype
 # For Older Browsers Which Can't Handle Compression
   BrowserMatch ^Mozilla/4 gzip-only-text/html 
