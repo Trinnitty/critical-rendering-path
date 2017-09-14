@@ -23,7 +23,7 @@ footer span { float: right; font-style: italic; }
 
 /* Smartphones (portrait) */
 @media only screen and (max-width: 480px) {
-  body { font-size: 12px; margin: 2em;}
+  body { font-size: 12px; margin: 3em;}
   header p { padding-left: 4.5em;}
 }
 @font-face {
