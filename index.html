@@ -78,4 +78,5 @@
       ga('send', 'pageview');
     </script>
 		<script src="http://www.google-analytics.com/analytics.js" async></script>
-    <script src='js/perfmatters.js' async></script>
+    <script async>function logCRP(){var o=window.performance.timing,n=o.domContentLoadedEventStart-o.domLoading,t=o.domComplete-o.domLoading;document.getElementById("crp-stats").textContent="DCL: "+n+"ms, onload: "+t+"ms"}window.addEventListener("load",function(o){logCRP()});
+</script>
